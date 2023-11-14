@@ -1,0 +1,129 @@
+body{
+	width:100%;
+	max-width:900px;
+	margin:0 auto;/*margen centrado*/
+}
+
+header{
+	height:16vh; /*100px aprox*/
+	width:100%;
+	max-width:900px;
+	margin:20px 0px;
+}
+
+header #logo{
+	float:left;
+	
+	
+}
+
+header .menu{ /*quitar lista del menu*/
+	 height:16vh; 
+	 float:right;
+}
+ 
+ header .menu ul li{ /*juntar menu*/
+	 list-style:none;
+	 float:left;
+}
+ 
+header .menu ul li a{
+	 text-decoration:none;  /*quitar subrayado*/
+	 background:#0610d1;
+	 color:#e1e1e8;
+	 padding:10px 15px;
+	 font-size:1.1rem; /*equvalente a 16px*/
+ }
+ 
+ header .menu ul li a:hover{ 
+	 background:#000000;
+	 color:#d2d2d5;
+ }
+ 
+ #perfil{
+	 height:50vh;
+	 border:10px solid #ce0909;
+ }
+ 
+ #perfil img{
+	 height:50vh;
+	 float:left;
+	 border:0px solid #ded70e;
+ }
+ 
+ #perfil h1{
+	 font-size:2.1rem;
+	 color:#db9b13;
+	 text-align:center;
+ }
+ 
+ #perfil p{
+	 color:#8b6f09;
+	 text-align:center;
+ }
+ 
+ #recuadros{
+	width:300%;
+	max-width:900px;
+	overflow:hidden;
+	border:0px solid #ef0f0f;
+	margin:20px 0px;
+	text-align:center;
+ }
+ 
+ #recuadros .recuadro{
+	 width:250px;
+	 overflow:hidden;
+	 float:left;
+	 padding:10px;
+	 text-align:center;
+	 color:#c93a0a;
+	 margin-left:10px;
+	 margin-right:10px;
+	 border:5px solid #e80303;
+ }
+
+ #recuadros .recuadro .parrafo{
+	color: #000000;
+	text-align: justify;
+ }
+ 
+ .boton{
+	text-decoration: none;
+	border:3px solid #0609d1;
+	padding: 2px 2px;
+ }
+
+ .boton:hover{
+	background:#1342db;
+	color: #d2d2d5;
+ }
+
+ footer{
+	height: 16vh;
+	width: 100%;
+	max-width: 900px;
+	text-align: center;
+	float: left;
+ }
+
+ #formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	padding: 5px;
+	float: left;
+ }
+
+ #formulario2{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	padding: 5px;
+	float: right;
+ }
+
+ .boton2:hover{
+	background:#04aaec;
+	color: rgb(147, 22, 219);
+ }

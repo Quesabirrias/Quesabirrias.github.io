@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>QUESABIRRIAS</title>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="img/logo.png" alt="logo" height="200" width="300">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="perfil.html">Mi perfil</a></li>
+                    <li><a href="amigos.html">Mis amigos</a></li>
+                    <li><a href="fotos.html">Mis fotos</a></li>
+                    <li><a href="agregar.html">Agregar amigos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="recuadros">
+            <h2>Mis fotos</h2>
+
+            <h3>
+                <form action="php/SubirFoto.php" method="post" enctype="multipart/form-data">
+                    Añadir imagen:<input name="archivo" id="archivo" type="file" accept=".JPG, .jpeg, .png" required>
+                    <input type="submit" name="subir" value="subir">
+                </form>
+            </h3>
+
+            <section class="recuadro">
+            <img src="img/foto1.jpg" height="150" width="200">
+        </section>
+
+        <section class="recuadro">
+            <img src="img/foto2.jpg" height="150" width="200">
+        </section>
+
+        <section class="recuadro">
+            <img src="img/foto3.jpg" height="150" width="200">
+        </section>
+
+        <section class="recuadro">
+            <img src="img/foto4.jpg" height="150" width="200">
+        </section>
+
+        <section class="recuadro">
+            <img src="img/foto5.jpg" height="150" width="200">
+        </section>
+
+        <section class="recuadro">
+            <img src="img/foto6.jpg" height="150" width="200">
+        </section>
+
+        </section>
+        <footer>
+            <p>Copyright &copy; QUESABIRRIAS</p>
+        </footer>
+    </body>
+</html>
